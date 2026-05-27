@@ -1,8 +1,8 @@
-# Bongsho 🌳
+# Mollick Family 🌳
 
 An interactive Bengali family tree platform built with the MERN stack.
 
-Bongsho helps families visualize genealogy, ancestry, lineage, and family relationships through a modern, responsive, and interactive tree interface.
+Mollick Family helps families visualize genealogy, ancestry, lineage, and family relationships through a modern, responsive, and interactive tree interface.
 
 ---
 
@@ -73,7 +73,7 @@ Bongsho helps families visualize genealogy, ancestry, lineage, and family relati
 # 📂 Project Structure
 
 ```bash
-bongsho/
+Mollick Family/
 │
 ├── client/
 │   ├── src/
@@ -101,7 +101,7 @@ bongsho/
 ## 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/Samiul2024/bongsho.git
+git clone https://github.com/Samiul2024/Mollick Family.git
 ```
 
 ---
@@ -167,7 +167,7 @@ npm run dev
 # 🌐 Live Demo
 
 Frontend:
-https://bongsho.vercel.app/
+https://Mollick Family.vercel.app/
 
 ---
 

@@ -28,7 +28,7 @@ app.use("/api/auth", authRoutes);
 
 // TEST ROUTE
 app.get("/", (req, res) => {
-    res.send("Bongsho API Running...");
+    res.send("Mollick Family API Running...");
 });
 
 

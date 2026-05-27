@@ -74,7 +74,7 @@ const Footer = () => {
                   text-white
                   "
                 >
-                  Bongsho
+                  Mollick Family
                 </h2>
 
                 <p
@@ -100,7 +100,7 @@ const Footer = () => {
               "
             >
 
-              Bongsho is a modern genealogy
+              Mollick Family is a modern genealogy
               platform designed to preserve
               family lineage, ancestry,
               heritage, and generational
@@ -234,8 +234,7 @@ const Footer = () => {
               Bengali family heritage,
               genealogy, and generational
               storytelling with MERN Stack,
-              graph visualization, and
-              AI-assisted engineering.
+              graph visualization.
 
             </p>
 
@@ -262,7 +261,7 @@ const Footer = () => {
           flex
           flex-col
           md:flex-row
-          justify-between
+          justify-center
           items-center
           gap-4
           text-sm
@@ -273,7 +272,7 @@ const Footer = () => {
 
             © {new Date().getFullYear()}
             {" "}
-            Bongsho.
+            Mollick Family.
             All rights reserved.
 
           </p>
@@ -282,67 +281,56 @@ const Footer = () => {
 
           <div
             className="
-            flex
-            flex-wrap
-            items-center
-            justify-center
-            gap-2
-            text-slate-500
-            "
+    flex
+    flex-wrap
+    items-center
+    justify-center
+    gap-2
+    text-slate-500
+  "
           >
+            <span>Developed by</span>
 
-            <span>
-              Crafted by
-            </span>
-
-            <span
+            {/* Portfolio / Name Link */}
+            <a
+              href="https://mdsamiullahossen.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="
-              text-slate-300
-              font-medium
-              "
+      text-slate-300
+      font-medium
+      hover:text-white
+      transition-colors
+    "
             >
               MD. Samiulla Hossen
-            </span>
+            </a>
 
-            <Heart
+            {/* WhatsApp Link */}
+            <a
+              href="https://wa.me/8801766768546"
+              target="_blank"
+              rel="noopener noreferrer"
               className="
-              w-4
-              h-4
-              text-red-400
-              "
-            />
-
-            <span>
-              using
-            </span>
-
-            <span
-              className="
-              text-blue-400
-              "
+      text-green-400
+      hover:text-green-300
+      transition-colors
+    "
             >
-              MERN Stack
-            </span>
-
-            <span>
-              &
-            </span>
-
-            <span
-              className="
-              text-emerald-400
-              "
-            >
-              AI-assisted engineering
-            </span>
-
+              WhatsApp
+            </a>
           </div>
+
+
+
 
         </div>
 
       </div>
 
-    </footer>
+    
+
+    </footer >
   );
 };
 
