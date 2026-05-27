@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://Mollick Family.vercel.app/sitemap.xml
+Sitemap: https://mollickfamily.vercel.app/sitemap.xml
