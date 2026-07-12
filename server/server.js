@@ -31,6 +31,8 @@ app.get("/", (req, res) => {
     res.send("Mollick Family API Running...");
 });
 
+
+// HEalth Endpoint
 app.get("api/health", (req, res) => {
     res.json({
         status: "ok",
