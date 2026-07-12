@@ -31,6 +31,13 @@ app.get("/", (req, res) => {
     res.send("Mollick Family API Running...");
 });
 
+app.get("api/health", (req, res) => {
+    res.json({
+        status: "ok",
+        uptime: process.uptime(),
+
+    });
+});
 
 const PORT = process.env.PORT || 5000;
 
