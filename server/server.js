@@ -33,11 +33,12 @@ app.get("/", (req, res) => {
 
 
 // HEalth Endpoint
-app.get("api/health", (req, res) => {
-    res.json({
-        status: "ok",
+app.get("/api/health", (req, res) => {
+    res.status(200).json({
+        success: true,
+        message: "Mollick Family Tree API is running",
         uptime: process.uptime(),
-
+        timestamp: new Date().toISOString()
     });
 });
 
