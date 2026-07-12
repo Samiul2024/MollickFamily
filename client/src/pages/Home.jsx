@@ -8,6 +8,7 @@ import {
   useAuth,
 } from "../context/AuthContext";
 import Navbar from "../components/Navbar";
+import { useEffect } from "react";
 
 
 const Home = () => {
@@ -16,7 +17,10 @@ const Home = () => {
   const [refreshKey, setRefreshKey] =
     useState(0);
 
-
+ useEffect(() => {
+  fetch("https://mollickfamily.onrender.com/api/health")
+    .catch(() => {});
+}, []);
 
   const refreshTree = () => {
     setRefreshKey((prev) => prev + 1);
