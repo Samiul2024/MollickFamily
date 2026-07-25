@@ -45,6 +45,7 @@ const Home = () => {
   Mollick bari,
   Mollick family tree,
   Mollick para nowapara,
+  Mollick para, nowapara,
   Nowapara family,
   Bengali genealogy,
   family tree Bangladesh,
