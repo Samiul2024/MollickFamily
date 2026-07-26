@@ -36,7 +36,7 @@ app.get("/", (req, res) => {
 app.get("/api/health", (req, res) => {
     res.status(200).json({
         success: true,
-        message: "Mollick Family Tree API is running",
+        message: "Mollick Family Tree health is fine",
         uptime: process.uptime(),
         timestamp: new Date().toISOString()
     });
